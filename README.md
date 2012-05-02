@@ -30,7 +30,7 @@
                                        
 ```
 
-Connect middleware to send errors as to an IRC server.
+Connect middleware to send errors to an IRC server.
 
 # Usage #
 
