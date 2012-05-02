@@ -1,0 +1,38 @@
+{
+    "name" : "connect-error-irc",
+    "description" : "Middleware to send errors to an IRC server.",
+    "version" : "0.1.0",
+    "author" : {
+        "name" : "Andrew Chilton",
+        "email" : "chilts@appsattic.com",
+        "url" : "http://www.appsattic.com/"
+    },
+    "homepage" : "https://github.com/appsattic/connect-error-irc",
+    "contributors" : [],
+    "devDependencies" : {
+        "tap" : ">= 0.0.11"
+    },
+    "dependencies": {
+        "irc" : ">= 0.3.4"
+    },
+    "main" : "connect-error-irc.js",
+    "engines" : { "node": "*" },
+    "repository" : {
+        "type" : "git",
+        "url": "git://github.com/appsattic/connect-error-irc.git"
+    },
+   "bugs" : {
+        "url" : "http://github.com/appsattic/connect-error-irc/issues",
+        "mail" : "chilts@appsattic.com"
+    },
+    "licenses" : [{
+        "type": "MIT",
+        "url" : "http://github.com/appsattic/connect-error-irc/raw/master/LICENSE"
+    }],
+    "keywords" : [
+        "express", "connect", "middleware", "irc", "error"
+    ],
+    "scripts" : {
+        "test" : "tap test/"
+    }
+}
